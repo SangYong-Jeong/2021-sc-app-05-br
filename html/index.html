@@ -137,7 +137,7 @@
 		<div class="wrapper">
 			<h3 class="title">Contact</h3>
 			<p class="summary">Lets get in touch and talk about your next project.</p>
-			<form action="#">
+			<form action="#" class="contact-form">
 				<!-- input.input.w100*4 -->
 				<input type="text" class="input w100" placeholder="Name">
 				<input type="text" class="input w100" placeholder="Email">
@@ -145,12 +145,18 @@
 				<input type="text" class="input w100" placeholder="Comment">
 				<button class="bt bt-black bt-send">SEND MESSAGE</button>
 			</form>
+			<div class="map-wrap" id="map">
+				<!-- <img src="../img/map.jpg" alt="map" class="w100"> -->
+			</div>
 		</div>
 	</section>
 
 	<!-- footer.footer-wrapper -->
 	<footer class="footer-wrapper">
-
+		Powered by <a href="#">w3.css</a>
 	</footer>
+	<!-- 각자의 appkey를 넣어주세요. 그냥 쓰시면 안되요 -->
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9fac6ccbcc4df43bc94c5f0c01acf7f3"></script>
+	<script src="../js/index.js"></script>
 </body>
 </html>

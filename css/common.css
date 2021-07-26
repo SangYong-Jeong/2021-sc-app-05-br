@@ -6,7 +6,7 @@ h3.title {padding: 20px 0; font-size: 24px; border-bottom: 1px solid #ddd;
 margin-bottom: 24px;}
 p.summary {line-height: 1.5; margin-bottom: 36px;}
 
-.input {padding: 12px 16px; font-size: inherit; border: 1px solid #ccc; outline: hidden;}
+.input {padding: 12px 16px; font-size: inherit; border: 1px solid #ccc; outline: hidden}
 .input:focus {outline: hidden;}
 
 .bt {padding: 12px 16px; border: none; outline: hidden; cursor: pointer;}
@@ -14,8 +14,12 @@ p.summary {line-height: 1.5; margin-bottom: 36px;}
 .bt-black {background-color: #000; color: #fff;}
 .bt-black:hover {background-color: #ccc; color: #000;}
 
+/********** header-wrapper **********/
 .header-wrapper {position: fixed; width: 100%; background-color: #fff; padding: 8px 16px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 0 10px rgba(0, 0, 0, .5); z-index: 99;}
 .header-wrapper .navi {padding: 12px 16px; letter-spacing: 5px;}
 .header-wrapper .navi:hover {background-color: #ccc;}
 .header-wrapper .navi-wrap {display: flex;}
 
+/********** header-wrapper **********/
+.footer-wrapper {background-color: #000; color: #fff; text-align: center;
+padding: 36px 0;}
