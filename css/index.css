@@ -27,7 +27,7 @@ section:not(.main-wrapper) {padding-top: 100px;}
 .about-wrapper .team a.bt-contact:hover {background-color: #ccc;}
 
 /********** contact-wrapper ********/
-
+.contact-wrapper .input {margin-bottom: 12px;}
 
 
 /********** footer-wrapper ********/
