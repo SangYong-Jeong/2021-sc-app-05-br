@@ -1,3 +1,4 @@
+html, body {height: 10000px;}
 .wrapper {max-width: 1200px; margin: 20px auto; padding: 100px 0;
 	background-color: #bbb; overflow: hidden;}
 .wrapper .imgs {border: 1px solid red;}
@@ -7,3 +8,14 @@
 
 .wrapper2 .img-wrap {display: flex; justify-content: space-evenly; align-items: center;}
 .wrapper2 .img-wrap .imgs {width: 20%;}
+
+.wrapper3 .text-wrap {display: flex; justify-content: space-evenly;}
+
+.wrapper4 .img-wrap {display: flex; height: 1000px; flex-direction: column; align-items: center; justify-content: center;}
+.wrapper4 .img-wrap .imgs {width: 20%;}
+.wrapper4 .img-wrap .imgs:nth-child(2) {align-self: flex-start;}
+.wrapper4 .img-wrap .imgs:nth-child(3) {align-self: flex-end;}
+
+.wrapper5 {padding: 0; height: 800px;}
+.wrapper5 .img-wrap {border: 1px solid green; display: flex; flex-wrap: wrap; align-items: center; align-content: center; height: 100%;}
+.wrapper5 .img-wrap .imgs {width: 14.2857%;}
