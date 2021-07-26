@@ -1,6 +1,13 @@
 html, body {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 15px;}
-.wrapper {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-.header-wrapper {position: fixed; width: 100%; background-color: #fff; padding: 8px 16px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 0 10px rgba(0, 0, 0, .5);}
+
+.wrapper {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 1500px; margin: auto;}
+
+h3.title {padding: 20px 0; font-size: 24px; border-bottom: 1px solid #ddd;}
+
+
+
+.header-wrapper {position: fixed; width: 100%; background-color: #fff; padding: 8px 16px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 0 10px rgba(0, 0, 0, .5); z-index: 99;}
 .header-wrapper .navi {padding: 12px 16px; letter-spacing: 5px;}
 .header-wrapper .navi:hover {background-color: #ccc;}
 .header-wrapper .navi-wrap {display: flex;}
+
