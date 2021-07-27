@@ -3,9 +3,9 @@ html, body {height: 10000px;}
 	background-color: #bbb;}
 .wrapper .imgs {border: 1px solid red;}
 
-.wrapper1 {background-color: #fff;}
-.wrapper1 .img-wrap {width: 101%; margin: -.5%;}
-.wrapper1 .img-wrap .imgs {width: 24%; float: left; margin: .5%;}
+.wrapper1 {background-color: #fff; border: 1px solid green; overflow: hidden;}
+.wrapper1 .img-wrap {width: 110%; border: 1px solid blue;}
+.wrapper1 .img-wrap .imgs {width: 16%; float: left; margin-right: 9%;}
 
 .wrapper2 .img-wrap {display: flex; justify-content: space-evenly; align-items: center;}
 .wrapper2 .img-wrap .imgs {width: 20%;}
