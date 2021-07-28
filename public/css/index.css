@@ -1,7 +1,9 @@
 section:not(.main-wrapper) {padding-top: 100px;}
+.section-wrapper {padding: 0 24px;}
 
 /********** main-wrapper ********/
 .main-wrapper .wrapper {position: relative;}
+.main-wrapper .main-img {width: 100%;}
 .main-wrapper .title-wrap {position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; justify-content: center; align-items: center; font-size: 42px; color: #fff; letter-spacing: 5px;}
 .main-wrapper .title-wrap .br {background-color: #000; padding: 4px 16px; font-weight: bold; margin-right: 16px; opacity: .8;}
 
@@ -15,7 +17,7 @@ section:not(.main-wrapper) {padding-top: 100px;}
 /********** about-wrapper ********/
 .about-wrapper {}
 .about-wrapper .wrapper {overflow: hidden;}
-.about-wrapper .team-wrap {display: flex; width: 101%;}
+.about-wrapper .team-wrap {display: flex; width: 101%; flex-wrap: wrap;}
 .about-wrapper .team-wrap .team {width: 24%; margin: 0 1% 1% 0;}
 .about-wrapper .team > *:not(:last-child) {margin-bottom: 20px;}
 .about-wrapper .team .imgs {filter: grayscale(.7);}
@@ -29,44 +31,45 @@ section:not(.main-wrapper) {padding-top: 100px;}
 .contact-wrapper {margin-bottom: 36px;}
 .contact-wrapper .input {margin-bottom: 12px;}
 .contact-wrapper .contact-form {margin-bottom: 36px;}
-.contact-wrapper .map-wrap {width: 100%; height: 400px; border: 1px solid red;}
+.contact-wrapper .map-wrap {width: 100%; height: 400px;}
 
 /********** 반응형 ********/
 
+@media screen and (max-width: 1532px) {
+	
+}
+
 @media screen and (max-width: 1199px) {
+	.prj-wrapper .prj-wrap .prj {width: 32.3333%;}
 	
 }
 
 
 @media screen and (max-width: 991px) {
-	section:not(.main-wrapper) .wrapper {padding: 0 28px}
+	
 	/* .prj-wrapper .wrapper {padding: 0 30px;}
 	.about-wrapper .wrapper {padding: 0 30px;}
 	.contact-wrapper .wrapper {padding: 0 30px;} */
-	.prj-wrapper .prj-wrap {display: flex; flex-wrap: wrap; width: 101.5%;}
-	.prj-wrapper .prj-wrap .prj {position: relative; width: 48.5%; margin: 0 1.5% 1.5% 0;}
-
-	.about-wrapper .team-wrap {display: flex; flex-wrap: wrap; width: 100%;}
-	.about-wrapper .team-wrap .team {width: 48.5%; margin: 0 1.5% 1.5% 0;}
+	.prj-wrapper .prj-wrap {width: 102%;}
+	.prj-wrapper .prj-wrap .prj {width: 48%; margin: 0 2% 2% 0;}
+	.about-wrapper .team-wrap {width: 102%;}
+	.about-wrapper .team-wrap .team {width: 48%; margin: 0 2% 2% 0; border: 1px solid #ddd; padding: 16px;}
 }
 
 
 @media screen and (max-width: 767px) {
-	
+	.main-wrapper .wrapper {background-image: url("../img/architect.jpg"); background-position: center; background-size: cover; min-height: 400px;}
+	.main-wrapper .main-img {display: none;}
+	.main-wrapper .archi {display: none;}
+	.prj-wrapper .prj-wrap {width: 100%;}
+	.prj-wrapper .prj-wrap .prj {width: 100%; margin: 0 0 3% 0;}
 }
 
 
 @media screen and (max-width: 575px) {
-	.header-wrapper h1.logo{padding: 12px 0;}
-	.header-wrapper .navi-wrap {display: none;}
-
-	.main-wrapper .archi {display: none;}
-
-	.prj-wrapper .prj-wrap {display: flex; flex-wrap: wrap; width: 100%;}
-	.prj-wrapper .prj-wrap .prj {position: relative; width: 100%; margin: 1.5% 0;}
-
-	.about-wrapper .team-wrap {display: flex; flex-wrap: wrap; width: 100%;}
-	.about-wrapper .team-wrap .team {width: 100%; margin: 3% 0;}
+	.section-wrapper {padding: 0 16px;}
+	.about-wrapper .team-wrap {width: 100%;}
+	.about-wrapper .team-wrap .team {width: 100%; margin: 0 0 5% 0;}
 }
 
 

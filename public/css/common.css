@@ -23,3 +23,20 @@ p.summary {line-height: 1.5; margin-bottom: 36px;}
 /********** footer-wrapper **********/
 .footer-wrapper {background-color: #000; color: #fff; text-align: center;
 padding: 36px 0;}
+
+@media screen and (max-width: 1199px) {
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	.header-wrapper {padding: 16px}
+	.header-wrapper .navi-wrap {display: none;}
+}
+
+@media screen and (max-width: 575px) {
+	
+}
